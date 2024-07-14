@@ -1,0 +1,3 @@
+a='welcome to sviet'
+if("to" in a):
+    print("yes")
