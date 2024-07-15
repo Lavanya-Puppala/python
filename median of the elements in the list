@@ -1,0 +1,10 @@
+def calculate_median(lst):
+    sorted_lst=soretd(lst)
+    n=len(sorted_lst)
+    if n%2==1:
+        return sorted_lst[n//2]
+    else:
+        mid1=sorted_lst[n//2-1]
+        mid2=sorted_lst[n//2]
+        return(mid1+mid2)/2
+    my_list=[4,7,1,9,3,5]   
